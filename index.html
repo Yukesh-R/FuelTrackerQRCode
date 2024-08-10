@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet">
+    <title>Tracker</title>
+</head>
+<body>
+    <h1 class="mainHeader">Fuel Usage Tracker</h1>
+    <h2 class="subHeader1">Vehicle Owner Name : Giri Prakash</h2>
+    <h2 class="subHeader2">Vehicle Type: Two Wheeler</h2>
+    <div class="inputField">
+        <label class="inputLabel">Enter your Fuel Purchase (in Liters)</label>
+        <input class="inputElement" placeholder="Eg 5 Ltrs" />
+    </div>
+    <button class="primaryCTA"  onclick="redirectToSuccess()">Confirm</button>
+    <button class="secondaryCTA">Cancel</button>
+    <script>
+        function redirectToSuccess() {
+            window.location.href= "./src/successpage.html"
+        }
+    </script>
+    
+</body>
+</html>

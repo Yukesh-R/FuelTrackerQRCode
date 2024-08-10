@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f8fb;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Header Styles */
+.mainHeader {
+    color: #27ae60;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subHeader {
+    color: #34495e;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Link Styles */
+.linktoRedirect {
+    font-size: 1.2em;
+    color: #2980b9;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.linktoRedirect:hover {
+    color: #1c5d88;
+    text-decoration: none;
+}
+

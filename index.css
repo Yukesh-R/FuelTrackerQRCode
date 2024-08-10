@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f7;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styles */
+.mainHeader {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.subHeader1, .subHeader2 {
+    color: #34495e;
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+/* Input Field Styles */
+.inputField {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputLabel {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.inputElement {
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.primaryCTA, .secondaryCTA {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primaryCTA {
+    background-color: #3498db;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.primaryCTA:hover {
+    background-color: #2980b9;
+}
+
+.secondaryCTA {
+    background-color: #e74c3c;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.secondaryCTA:hover {
+    background-color: #c0392b;
+}
